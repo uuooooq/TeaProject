@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  TimelineVC.h
 //  Tea
 //
 //  Created by zhu dongwei on 2019/3/22.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface TimelineVC : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

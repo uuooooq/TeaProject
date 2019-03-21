@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "setting/SettingVC.h"
+#import "timeline/TimelineVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor greenColor];
+    
+    SettingVC *settingVC = [[SettingVC alloc] init];
+    TimelineVC *timelineVC = [[TimelineVC alloc] init];
+    
+    UITabBarController *tabbarVC = [[UITabBarController alloc] init];
+    [tabbarVC setViewControllers:@[timelineVC,settingVC]];
+    
+    [self.window setRootViewController: tabbarVC];
+    
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

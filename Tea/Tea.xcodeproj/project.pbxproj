@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E6DA4B8522443B9D0062BE7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA4B8422443B9D0062BE7F /* AppDelegate.m */; };
-		E6DA4B8822443B9D0062BE7F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA4B8722443B9D0062BE7F /* FirstViewController.m */; };
-		E6DA4B8B22443B9D0062BE7F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA4B8A22443B9D0062BE7F /* SecondViewController.m */; };
-		E6DA4B8E22443B9D0062BE7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DA4B8C22443B9D0062BE7F /* Main.storyboard */; };
 		E6DA4B9022443B9E0062BE7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6DA4B8F22443B9E0062BE7F /* Assets.xcassets */; };
 		E6DA4B9322443B9E0062BE7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6DA4B9122443B9E0062BE7F /* LaunchScreen.storyboard */; };
 		E6DA4B9622443B9E0062BE7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA4B9522443B9E0062BE7F /* main.m */; };
 		E6DA4BA022443B9E0062BE7F /* TeaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA4B9F22443B9E0062BE7F /* TeaTests.m */; };
 		E6DA4BAB22443B9E0062BE7F /* TeaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA4BAA22443B9E0062BE7F /* TeaUITests.m */; };
+		E6DA4BBB224440000062BE7F /* TimelineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA4BBA224440000062BE7F /* TimelineVC.m */; };
+		E6DA4BBF224440510062BE7F /* SettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA4BBE224440510062BE7F /* SettingVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +38,6 @@
 		E6DA4B8022443B9D0062BE7F /* Tea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6DA4B8322443B9D0062BE7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6DA4B8422443B9D0062BE7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E6DA4B8622443B9D0062BE7F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		E6DA4B8722443B9D0062BE7F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		E6DA4B8922443B9D0062BE7F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		E6DA4B8A22443B9D0062BE7F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		E6DA4B8D22443B9D0062BE7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6DA4B8F22443B9E0062BE7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6DA4B9222443B9E0062BE7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6DA4B9422443B9E0062BE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +48,10 @@
 		E6DA4BA622443B9E0062BE7F /* TeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6DA4BAA22443B9E0062BE7F /* TeaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeaUITests.m; sourceTree = "<group>"; };
 		E6DA4BAC22443B9E0062BE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6DA4BB9224440000062BE7F /* TimelineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimelineVC.h; sourceTree = "<group>"; };
+		E6DA4BBA224440000062BE7F /* TimelineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimelineVC.m; sourceTree = "<group>"; };
+		E6DA4BBD224440510062BE7F /* SettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingVC.h; sourceTree = "<group>"; };
+		E6DA4BBE224440510062BE7F /* SettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +102,10 @@
 		E6DA4B8222443B9D0062BE7F /* Tea */ = {
 			isa = PBXGroup;
 			children = (
+				E6DA4BBC2244401C0062BE7F /* setting */,
+				E6DA4BB822443F820062BE7F /* timeline */,
 				E6DA4B8322443B9D0062BE7F /* AppDelegate.h */,
 				E6DA4B8422443B9D0062BE7F /* AppDelegate.m */,
-				E6DA4B8622443B9D0062BE7F /* FirstViewController.h */,
-				E6DA4B8722443B9D0062BE7F /* FirstViewController.m */,
-				E6DA4B8922443B9D0062BE7F /* SecondViewController.h */,
-				E6DA4B8A22443B9D0062BE7F /* SecondViewController.m */,
-				E6DA4B8C22443B9D0062BE7F /* Main.storyboard */,
 				E6DA4B8F22443B9E0062BE7F /* Assets.xcassets */,
 				E6DA4B9122443B9E0062BE7F /* LaunchScreen.storyboard */,
 				E6DA4B9422443B9E0062BE7F /* Info.plist */,
@@ -135,6 +130,24 @@
 				E6DA4BAC22443B9E0062BE7F /* Info.plist */,
 			);
 			path = TeaUITests;
+			sourceTree = "<group>";
+		};
+		E6DA4BB822443F820062BE7F /* timeline */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA4BB9224440000062BE7F /* TimelineVC.h */,
+				E6DA4BBA224440000062BE7F /* TimelineVC.m */,
+			);
+			path = timeline;
+			sourceTree = "<group>";
+		};
+		E6DA4BBC2244401C0062BE7F /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				E6DA4BBD224440510062BE7F /* SettingVC.h */,
+				E6DA4BBE224440510062BE7F /* SettingVC.m */,
+			);
+			path = setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +255,6 @@
 			files = (
 				E6DA4B9322443B9E0062BE7F /* LaunchScreen.storyboard in Resources */,
 				E6DA4B9022443B9E0062BE7F /* Assets.xcassets in Resources */,
-				E6DA4B8E22443B9D0062BE7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6DA4B8B22443B9D0062BE7F /* SecondViewController.m in Sources */,
+				E6DA4BBB224440000062BE7F /* TimelineVC.m in Sources */,
+				E6DA4BBF224440510062BE7F /* SettingVC.m in Sources */,
 				E6DA4B8522443B9D0062BE7F /* AppDelegate.m in Sources */,
 				E6DA4B9622443B9E0062BE7F /* main.m in Sources */,
-				E6DA4B8822443B9D0062BE7F /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +318,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E6DA4B8C22443B9D0062BE7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E6DA4B8D22443B9D0062BE7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E6DA4B9122443B9E0062BE7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
